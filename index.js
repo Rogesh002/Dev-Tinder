@@ -22,4 +22,9 @@ app.listen(7001,()=>{
     
 });
 
+app.use('/hello',(req,res)=>{
+    console.log('Heeellllllllllloooooooooo');
+    
+})
+
 console.log("listening to the port 7001");
